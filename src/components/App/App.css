@@ -31,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+.col-6{
+  float: left;
+  padding-left: 1%;
+  padding-right:  1%;
+  width:100%;
+  margin: 0 auto;
+}
+
+img{
+  width: auto;
+  height: 15em;
+}
+
+@media only screen and (min-width: 640px){
+  .col-6{
+    width:46%;
+  }
+}
